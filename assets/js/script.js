@@ -1,11 +1,6 @@
 'use strict';
 
 
-
-/**
- * navbar toggle
- */
-
 const overlay = document.querySelector("[data-overlay]");
 const navOpenBtn = document.querySelector("[data-nav-open-btn]");
 const navbar = document.querySelector("[data-navbar]");
@@ -22,9 +17,7 @@ for (let i = 0; i < navElems.length; i++) {
 
 
 
-/**
- * header & go top btn active on page scroll
- */
+
 
 const header = document.querySelector("[data-header]");
 const goTopBtn = document.querySelector("[data-go-top]");

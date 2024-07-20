@@ -1,25 +1,6 @@
-/*-----------------------------------*\
- * #style.css
-\*-----------------------------------*/
-
-/**
- * copyright 2022 codewithsadee
- */
-
-
-
-
-
-/*-----------------------------------*\
- * #CUSTOM PROPERTY
-\*-----------------------------------*/
-
 :root {
 
-    /**
-     * colors
-     */
-  
+
     --maximum-blue-green_10: hsla(185, 75%, 45%, 0.1);
     --rich-black-fogra-29: hsl(217, 28%, 9%);
     --gray-x-11-gray: hsl(0, 0%, 74%);
@@ -34,9 +15,7 @@
     --black: hsl(0, 0%, 0%);
     --onyx: hsl(0, 0%, 27%);
   
-    /**
-     * typography
-     */
+  
     
     --ff-roboto: 'Roboto', sans-serif;
     --ff-josefin-sans: 'Josefin Sans', sans-serif;
@@ -360,12 +339,10 @@
   
   
   
-  /*-----------------------------------*\
-   * #HEADER
-  \*-----------------------------------*/
+
   
   .header {
-    background: var(--white);
+    background: var(--gray-x-11-gray);
     position: fixed;
     top: 0;
     left: 0;
@@ -395,7 +372,7 @@
   .nav-open-btn ion-icon { --ionicon-stroke-width: 40px; }
   
   .navbar {
-    background: var(--white);
+    background: var(--gray-x-11-gray);
     position: fixed;
     top: 0;
     left: -280px;
